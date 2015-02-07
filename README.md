@@ -18,6 +18,7 @@ Completed user stories:
 * [ ] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
  
 Walkthrough of all user stories:
+
 ![Video Walkthrough]
 (dropboxGif.gif)
 
