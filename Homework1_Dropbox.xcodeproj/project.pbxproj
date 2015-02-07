@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B52184381A868C4100A749A2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52184371A868C4100A749A2 /* SignInViewController.swift */; };
+		B521843A1A86906F00A749A2 /* SignInTroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52184391A86906F00A749A2 /* SignInTroubleViewController.swift */; };
+		B521843C1A86B0C100A749A2 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521843B1A86B0C100A749A2 /* PhotosViewController.swift */; };
+		B521843E1A86C25100A749A2 /* SignInFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B521843D1A86C25100A749A2 /* SignInFieldsViewController.swift */; };
+		B5596EFE1A813DA50058D380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5596EFD1A813DA50058D380 /* AppDelegate.swift */; };
+		B5596F001A813DA50058D380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5596EFF1A813DA50058D380 /* ViewController.swift */; };
+		B5596F031A813DA50058D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5596F011A813DA50058D380 /* Main.storyboard */; };
+		B5596F051A813DA50058D380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5596F041A813DA50058D380 /* Images.xcassets */; };
+		B5596F081A813DA50058D380 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5596F061A813DA50058D380 /* LaunchScreen.xib */; };
+		B5596F141A813DA50058D380 /* Homework1_DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5596F131A813DA50058D380 /* Homework1_DropboxTests.swift */; };
+		B566F31D1A831CED00544776 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B566F31C1A831CED00544776 /* SignUpViewController.swift */; };
+		B5BAE24E1A85A84800263768 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAE24D1A85A84800263768 /* SettingsViewController.swift */; };
+		B5D1ABE31A82912300F5F62C /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1ABE21A82912300F5F62C /* TermsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5596F0E1A813DA50058D380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5596EF01A813DA50058D380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5596EF71A813DA50058D380;
+			remoteInfo = Homework1_Dropbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B52184371A868C4100A749A2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B52184391A86906F00A749A2 /* SignInTroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTroubleViewController.swift; sourceTree = "<group>"; };
+		B521843B1A86B0C100A749A2 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		B521843D1A86C25100A749A2 /* SignInFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFieldsViewController.swift; sourceTree = "<group>"; };
+		B5596EF81A813DA50058D380 /* Homework1_Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1_Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5596EFC1A813DA50058D380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5596EFD1A813DA50058D380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5596EFF1A813DA50058D380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5596F021A813DA50058D380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5596F041A813DA50058D380 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5596F071A813DA50058D380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5596F0D1A813DA50058D380 /* Homework1_DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework1_DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5596F121A813DA50058D380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5596F131A813DA50058D380 /* Homework1_DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework1_DropboxTests.swift; sourceTree = "<group>"; };
+		B566F31C1A831CED00544776 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B5BAE24D1A85A84800263768 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B5D1ABE21A82912300F5F62C /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5596EF51A813DA50058D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F0A1A813DA50058D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5596EEF1A813DA50058D380 = {
+			isa = PBXGroup;
+			children = (
+				B5596EFA1A813DA50058D380 /* Homework1_Dropbox */,
+				B5596F101A813DA50058D380 /* Homework1_DropboxTests */,
+				B5596EF91A813DA50058D380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5596EF91A813DA50058D380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5596EF81A813DA50058D380 /* Homework1_Dropbox.app */,
+				B5596F0D1A813DA50058D380 /* Homework1_DropboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5596EFA1A813DA50058D380 /* Homework1_Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				B5596EFD1A813DA50058D380 /* AppDelegate.swift */,
+				B5596EFF1A813DA50058D380 /* ViewController.swift */,
+				B5596F011A813DA50058D380 /* Main.storyboard */,
+				B5596F041A813DA50058D380 /* Images.xcassets */,
+				B5596F061A813DA50058D380 /* LaunchScreen.xib */,
+				B5596EFB1A813DA50058D380 /* Supporting Files */,
+				B5D1ABE21A82912300F5F62C /* TermsViewController.swift */,
+				B566F31C1A831CED00544776 /* SignUpViewController.swift */,
+				B5BAE24D1A85A84800263768 /* SettingsViewController.swift */,
+				B52184371A868C4100A749A2 /* SignInViewController.swift */,
+				B52184391A86906F00A749A2 /* SignInTroubleViewController.swift */,
+				B521843B1A86B0C100A749A2 /* PhotosViewController.swift */,
+				B521843D1A86C25100A749A2 /* SignInFieldsViewController.swift */,
+			);
+			path = Homework1_Dropbox;
+			sourceTree = "<group>";
+		};
+		B5596EFB1A813DA50058D380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5596EFC1A813DA50058D380 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5596F101A813DA50058D380 /* Homework1_DropboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F131A813DA50058D380 /* Homework1_DropboxTests.swift */,
+				B5596F111A813DA50058D380 /* Supporting Files */,
+			);
+			path = Homework1_DropboxTests;
+			sourceTree = "<group>";
+		};
+		B5596F111A813DA50058D380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5596F121A813DA50058D380 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5596EF71A813DA50058D380 /* Homework1_Dropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5596F171A813DA50058D380 /* Build configuration list for PBXNativeTarget "Homework1_Dropbox" */;
+			buildPhases = (
+				B5596EF41A813DA50058D380 /* Sources */,
+				B5596EF51A813DA50058D380 /* Frameworks */,
+				B5596EF61A813DA50058D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework1_Dropbox;
+			productName = Homework1_Dropbox;
+			productReference = B5596EF81A813DA50058D380 /* Homework1_Dropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5596F0C1A813DA50058D380 /* Homework1_DropboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5596F1A1A813DA50058D380 /* Build configuration list for PBXNativeTarget "Homework1_DropboxTests" */;
+			buildPhases = (
+				B5596F091A813DA50058D380 /* Sources */,
+				B5596F0A1A813DA50058D380 /* Frameworks */,
+				B5596F0B1A813DA50058D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5596F0F1A813DA50058D380 /* PBXTargetDependency */,
+			);
+			name = Homework1_DropboxTests;
+			productName = Homework1_DropboxTests;
+			productReference = B5596F0D1A813DA50058D380 /* Homework1_DropboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5596EF01A813DA50058D380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Codepath;
+				TargetAttributes = {
+					B5596EF71A813DA50058D380 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B5596F0C1A813DA50058D380 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B5596EF71A813DA50058D380;
+					};
+				};
+			};
+			buildConfigurationList = B5596EF31A813DA50058D380 /* Build configuration list for PBXProject "Homework1_Dropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5596EEF1A813DA50058D380;
+			productRefGroup = B5596EF91A813DA50058D380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5596EF71A813DA50058D380 /* Homework1_Dropbox */,
+				B5596F0C1A813DA50058D380 /* Homework1_DropboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5596EF61A813DA50058D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F031A813DA50058D380 /* Main.storyboard in Resources */,
+				B5596F081A813DA50058D380 /* LaunchScreen.xib in Resources */,
+				B5596F051A813DA50058D380 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F0B1A813DA50058D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5596EF41A813DA50058D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F001A813DA50058D380 /* ViewController.swift in Sources */,
+				B521843C1A86B0C100A749A2 /* PhotosViewController.swift in Sources */,
+				B521843A1A86906F00A749A2 /* SignInTroubleViewController.swift in Sources */,
+				B521843E1A86C25100A749A2 /* SignInFieldsViewController.swift in Sources */,
+				B5BAE24E1A85A84800263768 /* SettingsViewController.swift in Sources */,
+				B52184381A868C4100A749A2 /* SignInViewController.swift in Sources */,
+				B5596EFE1A813DA50058D380 /* AppDelegate.swift in Sources */,
+				B5D1ABE31A82912300F5F62C /* TermsViewController.swift in Sources */,
+				B566F31D1A831CED00544776 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5596F091A813DA50058D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5596F141A813DA50058D380 /* Homework1_DropboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5596F0F1A813DA50058D380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5596EF71A813DA50058D380 /* Homework1_Dropbox */;
+			targetProxy = B5596F0E1A813DA50058D380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5596F011A813DA50058D380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5596F021A813DA50058D380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5596F061A813DA50058D380 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5596F071A813DA50058D380 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5596F151A813DA50058D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5596F161A813DA50058D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5596F181A813DA50058D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Homework1_Dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5596F191A813DA50058D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Homework1_Dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5596F1B1A813DA50058D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework1_DropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework1_Dropbox.app/Homework1_Dropbox";
+			};
+			name = Debug;
+		};
+		B5596F1C1A813DA50058D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework1_DropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework1_Dropbox.app/Homework1_Dropbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5596EF31A813DA50058D380 /* Build configuration list for PBXProject "Homework1_Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F151A813DA50058D380 /* Debug */,
+				B5596F161A813DA50058D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5596F171A813DA50058D380 /* Build configuration list for PBXNativeTarget "Homework1_Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F181A813DA50058D380 /* Debug */,
+				B5596F191A813DA50058D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5596F1A1A813DA50058D380 /* Build configuration list for PBXNativeTarget "Homework1_DropboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5596F1B1A813DA50058D380 /* Debug */,
+				B5596F1C1A813DA50058D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5596EF01A813DA50058D380 /* Project object */;
+}
